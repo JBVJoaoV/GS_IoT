@@ -151,6 +151,12 @@ Segue abaixo o link do vídeo de demonstração, caso haja algum problema em ace
 
 ---
 
+## 👾 Prototipo no simulador Wokwi
+
+Segue o link de acesso para o [Wokwi](https://wokwi.com/projects/448251720556221441)
+
+---
+
 ## 📌 Limitações
 
 - A performance depende da iluminação e qualidade da webcam.
