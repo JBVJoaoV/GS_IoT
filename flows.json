@@ -1,0 +1,176 @@
+[
+    {
+        "id": "b11463d2f92d8253",
+        "type": "tab",
+        "label": "certo",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e5b67d4cf521adad",
+        "type": "serial out",
+        "z": "b11463d2f92d8253",
+        "name": "",
+        "serial": "serial_config_1",
+        "x": 560,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "b5e3bb0e69ed4a2b",
+        "type": "ui_button",
+        "z": "b11463d2f92d8253",
+        "name": "",
+        "group": "0673e8a2e06d90b6",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "FOCO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "F",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 310,
+        "y": 740,
+        "wires": [
+            [
+                "e5b67d4cf521adad"
+            ]
+        ]
+    },
+    {
+        "id": "4295eec083847e56",
+        "type": "ui_button",
+        "z": "b11463d2f92d8253",
+        "name": "",
+        "group": "0673e8a2e06d90b6",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "PAUSA",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "P",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 320,
+        "y": 800,
+        "wires": [
+            [
+                "e5b67d4cf521adad"
+            ]
+        ]
+    },
+    {
+        "id": "87311ecd268e0237",
+        "type": "ui_button",
+        "z": "b11463d2f92d8253",
+        "name": "",
+        "group": "0673e8a2e06d90b6",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "ERRADO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "E",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 320,
+        "y": 860,
+        "wires": [
+            [
+                "e5b67d4cf521adad"
+            ]
+        ]
+    },
+    {
+        "id": "4380efbed3062b7f",
+        "type": "ui_button",
+        "z": "b11463d2f92d8253",
+        "name": "",
+        "group": "0673e8a2e06d90b6",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "CERTO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "C",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 320,
+        "y": 920,
+        "wires": [
+            [
+                "e5b67d4cf521adad"
+            ]
+        ]
+    },
+    {
+        "id": "serial_config_1",
+        "type": "serial-port",
+        "name": "",
+        "serialport": "COM10",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "false",
+        "responsetimeout": ""
+    },
+    {
+        "id": "0673e8a2e06d90b6",
+        "type": "ui_group",
+        "name": "CP01",
+        "tab": "18c51012156e7294",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "18c51012156e7294",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8eb14c5358cad985",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-node-serialport": "2.0.3",
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
